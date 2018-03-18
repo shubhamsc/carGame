@@ -1,0 +1,65 @@
+body {
+  font-family: serif;
+  background-color: #f1f1f1;
+}
+
+#home {
+  margin:50px;
+  width: 1560px;
+  height:890px;
+  position: fixed;
+}
+
+#gameArea {
+  border: 1px solid #d3d3d3;
+  background-image: url("road.jpeg");
+  height: 90%;
+}
+
+#gameTitle {
+  margin: 0 auto;
+  text-align: center;
+  font-size:40px;
+}
+
+#score {
+  margin: 0 auto;
+  font-size: 30px;
+}
+
+#gameOver {
+  font-size: 40px;
+  margin:25%;
+  text-align:center;
+  visibility:hidden;
+}
+#car {
+  border-radius:45%;
+  position: relative;
+  top: 333px;
+  left: 0px;
+}
+
+.traffic {
+  position:absolute;
+  right:-400px;
+}
+
+#trafficCar1 {
+  top: 100px;
+}
+
+#trafficCar2 {
+  top: 260px;
+}
+#trafficCar3 {
+  top: 420px;
+}
+
+#trafficCar4 {
+  top: 580px;
+}
+
+#trafficCar5 {
+  top: 740px;
+}
